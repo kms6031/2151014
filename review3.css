@@ -1,0 +1,82 @@
+
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      background: #f5f6fa;
+      margin: 0;
+      padding: 0 0 40px 0;
+      color: #222;
+    }
+    h1 {
+      text-align: center;
+      margin-top: 32px;
+      margin-bottom: 18px;
+      font-size: 2.2em;
+      letter-spacing: -1px;
+    }
+    .review-scroll-container {
+      max-width: 600px;
+      margin: 0 auto 30px auto;
+      max-height: 350px;
+      overflow-y: auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      padding: 18px;
+    }
+    .review-card {
+      background: #f9fafb;
+      border-radius: 8px;
+      margin-bottom: 18px;
+      padding: 14px 16px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+    }
+    .review-header {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.95em;
+      color: #888;
+      margin-bottom: 6px;
+    }
+    .review-title {
+      font-weight: bold;
+      margin-bottom: 6px;
+      color: #2d2d2d;
+    }
+    .review-content {
+      color: #444;
+      font-size: 1em;
+      line-height: 1.5;
+    }
+    .reviews {
+      max-width: 600px;
+      margin: 0 auto 40px auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      padding: 22px 18px;
+    }
+    .trailer {
+      max-width: 600px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      padding: 22px 18px;
+      text-align: center;
+    }
+    iframe {
+      width: 100%;
+      height: 340px;
+      border: none;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+    @media (max-width: 650px) {
+      .review-scroll-container, .reviews, .trailer {
+        max-width: 98vw;
+        padding: 8px;
+      }
+      iframe {
+        height: 200px;
+      }
+    }
